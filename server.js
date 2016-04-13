@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 //set static files
-app.use(express.static(path.join(__dirname, "./client/")));
+app.use(express.static(path.join(__dirname, "./public")));
 
 //set routes
 require("./server/config/mongoose.js");
