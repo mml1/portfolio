@@ -2,7 +2,7 @@ angular.module("pApp", [
 	"ngRoute",
 	"appRoutes",
 	"projectFactory",
-	"projectsCtrl"
+	"projectsCtrl",
 	"homeFactory",
 	"homesCtrl"
 ]);
