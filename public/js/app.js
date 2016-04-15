@@ -5,5 +5,6 @@ angular.module("pApp", [
 	"projectsCtrl",
 	"homeFactory",
 	"homesCtrl",
-	"scrollsCtrl"
+	"scrollsCtrl",
+	"ui.bootstrap"
 ]);
