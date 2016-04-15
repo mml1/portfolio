@@ -4,5 +4,6 @@ angular.module("pApp", [
 	"projectFactory",
 	"projectsCtrl",
 	"homeFactory",
-	"homesCtrl"
+	"homesCtrl",
+	"scrollsCtrl"
 ]);

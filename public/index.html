@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Mari Lliguicota</title>
+	<title> </title>
 	<!-- Angular related script tags -->
 	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
@@ -15,6 +15,7 @@
 	<!-- Angular controllers -->
 	<script src="js/controllers/projectsCtrl.js"></script>
 	<script src="js/controllers/homesCtrl.js"></script>
+	<script src="js/controllers/scrollsCtrl.js"></script>
 
 	<!-- Angular factories -->
 	<script src="js/factories/projectFactory.js"></script>
@@ -23,22 +24,26 @@
 	<!-- Angular routes and app -->
 	<script src="js/appRoutes.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+		$(document).ready(function(){
+ 		   // Initialize Tooltip
+  		  $('[data-toggle="tooltip"]').tooltip(); 
+		})
+	</script>
 
 </head>
 <body ng-app= "pApp">
-	<div class= "container">
-		<div class = "row">
+	<div class= "container" ng-controller="ScrollsController">
+		<div class = "row"> <a id= "top"></a>
 			<h3>Name</h3>
 			<hr>
 		</div>
 		<div class = "row" ng-view=""></div>
-		<div class = "row">
-			<hr>
-
+		<div class = "row text-center">
+			<a class="glyphicon glyphicon-menu-up" ng-click="gotoTop()"></a>
+			<br>
 			<h5>Contact</h5>
 		</div>
 	</div>
-
-
 </body>
 </html>
