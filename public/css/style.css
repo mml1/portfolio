@@ -1,3 +1,16 @@
-*{
-	color: #056571;
+body{
+/*	color: #DADFE1;
+*/	background: #444444;
+	color: #8A8E8F;
+}
+.container{
+	background: #FFFFFF;
+}
+a {
+	color:#21E1ED;
+/*	color:#0B2C3C;*/
+/*	color:#23F2FF;
+*/}
+h3, h5{
+	color: #FA4A0E;
 }
