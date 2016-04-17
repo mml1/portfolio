@@ -8,9 +8,23 @@ body{
 }
 a {
 	color:#21E1ED;
+/*	color: #337ab7;
+*/}
+a:link {
+	text-decoration: none;
 /*	color:#0B2C3C;*/
 /*	color:#23F2FF;
 */}
+a:hover{	
+	color:#337ab7;
+	text-decoration: none;
+}
+a:visited{	
+	text-decoration: none;
+}
+a:active{	
+	text-decoration: none;
+}
 h3, h5{
 	color: #FA4A0E;
 }
