@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title> </title>
-	<!-- Angular related script tags -->
+	<!-- Angular CDN script tags -->
 	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
 	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
 	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
 	
 	<script src="js/ui-bootstrap-tpls-1.3.2.min.js"></script>
 	<link rel ="stylesheet" href = "css/style.css">
@@ -31,8 +30,8 @@
 
 </head>
 <body ng-app= "pApp">
-	<div class = "start" ng-controller="ScrollsController">
-		 <a id= "top"></a>
+	<div ng-controller="ScrollsController">
+		<a id= "top"></a>
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">ML</a>
@@ -40,22 +39,23 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#about">About</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#connect">Connect</a></li>
 			</ul>
 		</nav>
-		 <div id = "front" class="text-center">
-		 	<div id ="MLlogo"><h1>ML</h1></div>
+		 <div class="jumbotron text-center">
 		 	<h1>Full Stack Developer</h1>
+		 	<div id ="MLlogo"><h1>ML</h1></div>
 		 </div>
 		<div class = "text-center row" ng-view=""></div>
 		<div class = "text-center">
 			<br>
 			<br>
 			<a class="glyphicon glyphicon-menu-up" ng-click="gotoTop()"></a>
-			<h3>Contact</h3>
-			<a href ="" class="fa fa-twitter"></a>
-			<a href ="" class="fa fa-linkedin"></a>
-			<a href ="" class="fa fa-github"></a>
+			<h1>Connect</h1>
+<!-- 			<a href ="" class="fa fa-twitter" target="_blank"></a> -->
+			<a href ="" class="fa fa-linkedin" target="_blank"></a>
+			<a href ="https://github.com/mml1" class="fa fa-github" target="_blank"></a>
+			<a href ="" class="glyphicon glyphicon-envelope" target="_blank"></a>
 		</div>
 	</div>
 </body>

@@ -3,7 +3,8 @@ body{
 	color: #8A8E8F;
 }
 a {
-	color: #CC5476;
+	/*color: #CC5476;*/
+	color: #CCEA76
 }
 a:link {
 	text-decoration: none;
@@ -18,10 +19,32 @@ a:visited{
 a:active{	
 	text-decoration: none;
 }
-h1,h3, h5{
+h3, h5{
 	color:#FF8C86;
 }
+h1{
+	color:#A6E5F5;
+}
+.container{
+	background: #FFFFFF;
+}
+.navbar{
+	background: #CCEA76;
+	/*background: #A6E5F5;*/
 
+}
+.navbar-default .navbar-nav>li>a {
+	color: #30707F;
+	text-shadow: none;
+	width: 100%;
+}
+.row{
+	background: #FFFFFF;
+	margin: 0px;
+}
+.thumbnail{
+	min-height: 60%;
+}
 .logo{
     background:#444444;
 /*    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
@@ -29,27 +52,14 @@ h1,h3, h5{
 /*    height:60%;
     width: 60%;*/
 }
-.container{
-	background: #FFFFFF;
-}
-/* 30707F 84BFCC FFFFFF FF8C86 CC5476*/
-.navbar{
-	background: #A6E5F5;
-
-}
-.navbar-default .navbar-nav>li>a {
-	color: #30707F;
-	text-shadow: none;
-}
-.row{
-	background: #FFFFFF;
-}
-.thumbnail{
-	min-height: 80%;
-}
-#front{
-	width:100%;
-	min-height: 100%;
+.jumbotron{
+	/*background: #CCEA76;*/
+	/*color: #444444;*/
+	/*background: #A6E5F5;*/
+	color: #A6E5F5;
+	background: #444444;
+	/*color: #FFFFFF;*/
+	/*background: #CC5476;*/
 }
 #MLlogo{
 	margin: auto;
@@ -58,6 +68,13 @@ h1,h3, h5{
 	border-radius: 50%;
 	background: #FFFFFF;
 	border: 10px solid #30707F;
-	margin-top: 25%;
+/*	margin-top: 10%;
+*/}
+/* 30707F 84BFCC FFFFFF FF8C86 CC5476*/
+.fa{
+	font-size: 30px;
+}
+.glyphicon-envelope{
+	font-size: 30px;
 }
 
