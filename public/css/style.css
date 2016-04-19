@@ -34,14 +34,8 @@ h3, h5{
 */}
 .logo{
     background:#444444;
-    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
-    filter: grayscale(50%);
+/*    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
+    filter: grayscale(50%);*/
 /*    height:60%;
     width: 60%;*/
-}
-img{
-/*	height:60%;
-    width: 60%;*/
-	-webkit-filter: grayscale(80%);  Chrome, Safari, Opera 
-    filter: grayscale(80%);
 }
