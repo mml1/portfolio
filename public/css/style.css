@@ -1,22 +1,13 @@
 body{
-/*	color: #DADFE1;
-*/	background: #444444;
+	background: #444444;
 	color: #8A8E8F;
 }
-.row{
-	background: #FFFFFF;
-}
 a {
-	color: #FA4A0E;
-
-/*	color:#21E1ED;
-*//*	color: #337ab7;
-*/}
+	color: #CC5476;
+}
 a:link {
 	text-decoration: none;
-/*	color:#0B2C3C;*/
-/*	color:#23F2FF;
-*/}
+}
 a:hover{	
 	color:#337ab7;
 	text-decoration: none;
@@ -27,11 +18,10 @@ a:visited{
 a:active{	
 	text-decoration: none;
 }
-h3, h5{
-	color:#21E1ED;
+h1,h3, h5{
+	color:#FF8C86;
+}
 
-/*	color: #FA4A0E;
-*/}
 .logo{
     background:#444444;
 /*    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
@@ -39,3 +29,35 @@ h3, h5{
 /*    height:60%;
     width: 60%;*/
 }
+.container{
+	background: #FFFFFF;
+}
+/* 30707F 84BFCC FFFFFF FF8C86 CC5476*/
+.navbar{
+	background: #A6E5F5;
+
+}
+.navbar-default .navbar-nav>li>a {
+	color: #30707F;
+	text-shadow: none;
+}
+.row{
+	background: #FFFFFF;
+}
+.thumbnail{
+	min-height: 80%;
+}
+#front{
+	width:100%;
+	min-height: 100%;
+}
+#MLlogo{
+	margin: auto;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	border: 10px solid #30707F;
+	margin-top: 25%;
+}
+

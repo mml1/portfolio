@@ -31,19 +31,28 @@
 
 </head>
 <body ng-app= "pApp">
-	<div class= "container text-center" ng-controller="ScrollsController">
-		<div class = "row"> <a id= "top"></a>
-			<h3>Name</h3>
-			<hr>
-		</div>
-		<div class = "row" ng-view=""></div>
-		<div class = "row">
-			<hr>
+	<div class = "start" ng-controller="ScrollsController">
+		 <a id= "top"></a>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">ML</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		 <div id = "front" class="text-center">
+		 	<div id ="MLlogo"><h1>ML</h1></div>
+		 	<h1>Full Stack Developer</h1>
+		 </div>
+		<div class = "text-center row" ng-view=""></div>
+		<div class = "text-center">
+			<br>
+			<br>
 			<a class="glyphicon glyphicon-menu-up" ng-click="gotoTop()"></a>
-			<br>
-			Need to add styling to get rid of underline
-			<br>
-			<h5>Contact</h5>
+			<h3>Contact</h3>
 			<a href ="" class="fa fa-twitter"></a>
 			<a href ="" class="fa fa-linkedin"></a>
 			<a href ="" class="fa fa-github"></a>
