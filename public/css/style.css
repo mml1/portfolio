@@ -7,8 +7,10 @@ body{
 	background: #FFFFFF;
 }
 a {
-	color:#21E1ED;
-/*	color: #337ab7;
+	color: #FA4A0E;
+
+/*	color:#21E1ED;
+*//*	color: #337ab7;
 */}
 a:link {
 	text-decoration: none;
@@ -26,5 +28,20 @@ a:active{
 	text-decoration: none;
 }
 h3, h5{
-	color: #FA4A0E;
+	color:#21E1ED;
+
+/*	color: #FA4A0E;
+*/}
+.logo{
+    background:#444444;
+    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
+    filter: grayscale(50%);
+/*    height:60%;
+    width: 60%;*/
+}
+img{
+/*	height:60%;
+    width: 60%;*/
+	-webkit-filter: grayscale(80%);  Chrome, Safari, Opera 
+    filter: grayscale(80%);
 }
