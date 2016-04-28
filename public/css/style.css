@@ -90,7 +90,12 @@ h1{
 }
 .projects{
 	height:100%;
+	display: block;
 }
 .footer{
 	background: #444444;
+	display: block;
+}
+#about{
+	min-height: 300px;
 }
