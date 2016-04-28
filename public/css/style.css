@@ -42,6 +42,12 @@ h1{
 	text-shadow: none;
 	width: 100%;
 }
+.navbar-default .navbar-nav>li>a:hover {
+	color: #CCEA76;
+}
+.navbar-default .navbar-nav>li>a:active {
+	color: #C0C0C0;
+}
 .row{
 	background: #FFFFFF;
 	margin: 0px;
@@ -64,6 +70,7 @@ h1{
 	background: #444444;*/
 	/*color: #FFFFFF;*/
 	/*background: #CC5476;*/
+	border-bottom: 5px solid #444444;
 }
 #MLlogo{
 	margin: auto;
@@ -81,4 +88,9 @@ h1{
 .glyphicon-envelope{
 	font-size: 30px;
 }
-
+.projects{
+	height:100%;
+}
+.footer{
+	background: #444444;
+}

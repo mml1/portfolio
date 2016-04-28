@@ -6,5 +6,6 @@ angular.module("pApp", [
 	"homeFactory",
 	"homesCtrl",
 	"scrollsCtrl",
-	"ui.bootstrap"
+	"ui.bootstrap",
+	"duScroll"
 ]);
