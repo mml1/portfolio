@@ -6,19 +6,20 @@ body{
 }
 a {
 	/*color: #CC5476;*/
-	color: #CCEA76
+	color: #30707F
 }
 a:link {
 	text-decoration: none;
 }
 a:hover{	
-	color:#337ab7;
+	color:#FF8C86;
 	text-decoration: none;
 }
 a:visited{	
 	text-decoration: none;
 }
-a:active{	
+a:active{
+	color:#A6E5F5; 	
 	text-decoration: none;
 }
 h3, h5{
@@ -44,7 +45,7 @@ h1{
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	color: #CCEA76;
+	color: #30707F;
 }
 .navbar-default .navbar-nav>li>a:visited {
 	color: #FF8C86;
