@@ -14,7 +14,7 @@ module.exports = (function(){
 
 		},
 		show: function(req, res){
-			Project.find({_id:req.params.id}, function(err, project){
+			Project.findOne({_id:req.params.id}, function(err, project){
 				if(err){
 					console.log(err, "could not find project");
 				} else {

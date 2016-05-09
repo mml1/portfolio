@@ -7,7 +7,7 @@ angular.module("projectFactory", []).factory("ProjectFactory", function($http){
 		$http.get("/projects").success(function(info){
 			callback(info);
 		});
-	}
+	};
 
 	//create a new project record
 	factory.create = function(info){
@@ -17,9 +17,8 @@ angular.module("projectFactory", []).factory("ProjectFactory", function($http){
 
 	//display one project info
 	factory.show = function(id, callback){
-		$http.get("/projects/"+id).success(function(pInfo){
-			callback(pInfo)
-
+		$http.get("/projects/" + id).success(function(pInfo){
+			callback(pInfo);
 		});	
 	};
 	return factory;
