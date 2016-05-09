@@ -70,34 +70,23 @@ h1{
     width: 60%;*/
 }
 .jumbotron{
-	background: #CCEA76;
-	background: #000000;
-	color: #444444;
-	/*background: #A6E5F5;*/
-/*	color: #A6E5F5;
-	background: #444444;*/
-	/*color: #FFFFFF;*/
-	/*background: #CC5476;*/
+	color: #FFFFFF;
 	border-bottom: 5px solid #444444;
+	background-image: url("../img/front.jpeg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 80%;
+
 }
 
 #MLlogo{
-	margin: auto;
-	height: 300px;
-	width: 300px;
-	border-radius: 50%;
-	background: #FFFFFF;
-	border: 10px solid #30707F;
+
 }
-/* 30707F 84BFCC FFFFFF FF8C86 CC5476*/
 .fa{
 	font-size: 30px;	
 }
 .glyphicon-envelope{
 	font-size: 30px;
-}
-.projects{
-	height:135%;
 }
 .footer{
 	color:#C0C0C0;
@@ -105,4 +94,7 @@ h1{
 }
 #about{
 	min-height: 300px;
+}
+.container{
+	min-height: 70%;
 }

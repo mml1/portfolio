@@ -1,25 +1,28 @@
 <div ng-controller="ScrollsController" id= "top">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="navbar-header page-scroll">
-			<a class="navbar-brand">ML</a>
+			<a class="navbar-brand">Mari L.</a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
 			<li class="page-scroll"><a href="#about"  du-smooth-scroll duration="700">About</a></li>
 			<li class="page-scroll"><a href="#projects" du-smooth-scroll duration="700">Projects</a></li>
+			<li class="page-scroll"><a href="#contact" du-smooth-scroll duration="700">Contact</a></li>
 			<li class="page-scroll"><a href="#connect" du-smooth-scroll duration="700">Connect</a></li>
 		</ul>
 	</nav>
 
 	<div class="jumbotron text-center">
-		<h1>Full Stack Developer</h1>
-	 	<div id ="MLlogo"><h1>ML</h1></div>
+	 	<div id ="MLlogo">
+	 		<br><br>
+	 		<h1>ML</h1>
+	 		<h1>Full Stack Developer</h1>
+	 	</div>
 	</div>
 	<div class="text-center" id="about">
 	 	<div class="col-sm-6">
 			<h1>About Me</h1>
 			<p>Hello! My name is Mary. I am an empathetic, bubbly, curious, full stack developer who recently graduated from Coding Dojo, where I enjoyed learning about and exploring algorithms, MVC architecture, Python, MEAN stack, and Ruby on Rails. Want to connect? Contact me below. </p>	 	
 		</div>
-
 	 	<div class="col-sm-6">
 	 		<h1>Skills</h1>
 	 		<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg">
@@ -40,95 +43,64 @@
 	 		<img src="../img/stackImages/ruby.png" alt="Ruby image">
 	 		<img src="../img/stackImages/socketio.png" alt="Socket io image">
 
-
-	 		
-
 	 	</div>
 
 	</div>
 
-	<div class="projects row" id="projects">
+	<div class="row" id="projects">
 	 	<h1 class="text-center">Projects</h1>	
 	 	
-		<div class="col-sm-4">
+		<div class="col-sm-3">
 			<div class="thumbnail">
-				<img src="../img/sqMLlogo.png" alt="Remind Me logo" class="logo">
-
-				<h4>Memory Lane</h4>
-				<i class="fa fa-clone" aria-hidden="true"></i>
-				<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/MEAN_match" target="_blank"></a>
-
-				<h5>Description</h5>
-				<p>A memory game where you have to reveal two matching cards to earn a point. See your stats in bar form once the game is over. Want to know how you did compared to others? Click on Past Records. </p>
-				<h5>Technologies used</h5>
-				<ul>
-					<li>AngularJS</li>
-					<li>Node.js</li>
-					<li>Express.js</li>
-					<li>Mongoose</li>
-					<li>MongoDB</li>
-					<li>Twitter Bootstrap</li>
-					<li>HTML</li>
-					<li>CSS</li>
-				</ul>
-
-
+				<a href="#/projects/memorylane" target="_blank"><img src="../img/sqMLlogo.png" alt="Memory Lane logo" class="logo"></a>
 			</div>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-3">
 			<div class="thumbnail">
-				<img src="../img/sqLogo.png" alt="Remind Me logo" class="logo">
-				<h4>Remind Me</h4>
-				<a class="fa fa-clone" aria-hidden="true" ></a>
-				<a class="fa fa-github" aria-hidden="true" href= "https://github.com/mml1/ror_remind_me" target= "_blank"></a>
-				<h5>Description</h5>
-				<h5>Technologies used</h5>
-				<ul>
-					<li>Ruby on Rails</li>
-					<li>PostgreSQL</li>
-					<li>Rufus Scheduler Gem</li>
-					<li>Twitter Bootstrap</li>
-					<li>HTML</li>
-					<li>CSS</li>
-				</ul>
-				<h5>Team Players</h5>
-					<ul>
-						<li>Andrew <a href ="" class="fa fa-linkedin" target="_blank"></a>
-</i>
-						</li>
-					</ul>
-
+				<a href="#/projects/remindme" target="_blank"><img src="../img/sqLogo.png" alt="Remind Me logo" class="logo"></a>
 			</div>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-3">
 			<div class="thumbnail">
-				<img src="../img/sqLogo.png" alt="Discussion Board Logo" class="logo">
-				<h4>Hungry Belly</h4>
-				<a class="fa fa-clone" aria-hidden="true" href="http://54.186.90.201:81/" target="_blank"></a>
-				<a class="fa fa-github" aria-hidden="true" href="http://github.com/mml1/hungrybelly" target="_blank"></a>
-
-				<h5>Description</h5>
-				<h5>Technologies used</h5>
-				<ul>
-					<li>Ruby on Rails</li>
-					<li>PostgreSQL</li>
-					<li>Google Maps API</li>
-					<li>Twilio Gem</li>
-					<li>Geocoder Gem</li>
-					<li>Yelp Gem</li>
-					<li>Twitter Bootstrap</li>
-					<li>HTML</li>
-					<li>CSS</li>
-				</ul>
-				<h5>Team Players</h5>
-					<ul>
-						<li>Heather <a href = "https://www.linkedin.com/in/heatherwalker3" class="fa fa-linkedin" target="_blank"></a>
-						</li>
-						<li>Amrita <a href = "https://www.linkedin.com/in/amritakc" class="fa fa-linkedin" target="_blank"></a>
-						</li>
-					</ul>
+				<a href="#/projects/hungrybelly" target="_blank"><img src="../img/sqLogo.png" alt="Hungry Belly Logo" class="logo"></a>
 			</div>
 		</div>
+		<div class="col-sm-3">
+			<div class="thumbnail">
+				<a href="#/projects/warningstories" target="_blank"><img src="../img/sqLogo.png" alt="Warning Stories Logo" class="logo"></a>
+			</div>
+		</div>
+	</div>
+	<div class = "text-center" id="contact">
+		<h1>Contact</h1>
+		<form class="form-horizontal" role="form">
+		<div class="form-group">
+		<label class="control-label col-sm-4" for="email">Email:</label>
+		<div class="col-sm-4">
+		<input type="email" class="form-control" id="email" placeholder="Where should I reply to?" ng-model="mess.email">
+		</div>
+		</div>
+		<div class="form-group">
+		<label class="control-label col-sm-4" for="name">Name:</label>
+		<div class="col-sm-4">
+		<input type="text" class="form-control" id="text" placeholder="What is your name?" ng-model="mess.name">
+		</div>
+
+		</div>
+		<div class="form-group">
+		<label class="control-label col-sm-4" for="message">Message:</label>
+		<div class="col-sm-4">
+		<textarea class="form-control" id="text" placeholder="What is on your mind?" ng-model="mess.message"></textarea>
+		</div>
+		
+		</div>
+		<div class="form-group"> 
+		<div class="col-sm-6 col-sm-offset-4">
+		<button type="submit" class="btn btn-default" ng-click="message()">Submit</button>
+		</div>
+		</div>
+		</form>
+
 	</div>
 	<div class = "text-center footer" id="connect">
 		<br>
