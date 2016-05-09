@@ -35,10 +35,10 @@ h1{
 }
 .container{
 	background: #FFFFFF;
+	min-height: 70%;
+
 }
 .navbar{
-	/*background: #CCEA76;*/
-	/*background: #A6E5F5;*/
 	background: #444444;
 }
 
@@ -60,15 +60,9 @@ h1{
 .row{
 	background: #FFFFFF;
 	margin: 0px;
+	margin-bottom: 5%;
 }
 
-.logo{
-    /*background:#444444;*/
-/*    -webkit-filter: grayscale(50%);  Chrome, Safari, Opera 
-    filter: grayscale(50%);*/
-/*    height:60%;
-    width: 60%;*/
-}
 .jumbotron{
 	color: #FFFFFF;
 	border-bottom: 5px solid #444444;
@@ -76,10 +70,6 @@ h1{
 	background-size: 100%;
     background-repeat: no-repeat;
     min-height: 80%;
-
-}
-
-#MLlogo{
 
 }
 .fa{
@@ -92,9 +82,6 @@ h1{
 	color:#C0C0C0;
 	background: #444444;
 }
-#about{
+/*#about{
 	min-height: 300px;
-}
-.container{
-	min-height: 70%;
-}
+}*/
