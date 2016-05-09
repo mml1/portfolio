@@ -4,18 +4,17 @@
 	</div>
 </nav>
 <br><br><br>
-<div class ="container" ng-controller ="ProjectsController">
-	<div style="height: 305px">
+<div class="container"ng-controller ="ProjectsController">
 	<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
-        <div class="carousel-caption">
-   <!--        <h4>Slide {{slide.id}}</h4>
-          <p>{{slide.text}}</p> -->
-        </div>
-      </uib-slide>
-    </uib-carousel>
-</div>
+		<uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+			<img ng-src="{{slide.image}}" style="max-height:300px; margin:0 auto;">
+			<div class="carousel-caption">
+			<h5>Slide {{slide.id}}</h5>
+			<!-- <p>{{slide.text}}</p> -->
+		</div>
+		</uib-slide>
+	</uib-carousel>
+
 	<h1>Memory Lane</h1>
 	<i class="fa fa-clone" aria-hidden="true"></i>
 	<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/MEAN_match" target="_blank"></a>
