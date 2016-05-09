@@ -1,0 +1,12 @@
+<div ng-controller="ProjectsController">
+		Title: <input type="text" ng-model="project.title"></input>
+		Description: <input type="text" ng-model="project.description"></input>
+		Technologies: 
+			one: <input type="text" ng-model="project.tech[0]"></input>
+			two: <input type="text" ng-model="project.tech[1]"></input>
+			three: <input type="text" ng-model="project.tech[2]"></input>
+		Team Members: <input type="text" ng-model="project.teamPlayers"></input>
+		<input type="submit" ng-click="add()"></input>
+</div>
+
+
