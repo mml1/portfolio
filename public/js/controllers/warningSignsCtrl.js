@@ -1,4 +1,4 @@
-angular.module("projectsCtrl",[]).controller("ProjectsController", function($scope, $routeParams, ProjectFactory){
+angular.module("warningSignsCtrl",[]).controller("WarningSignsController", function($scope, $routeParams, ProjectFactory){
 	$scope.one = "";
 	$scope.project = {};
 	$scope.project.tech =[];
