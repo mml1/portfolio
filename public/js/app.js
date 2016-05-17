@@ -6,6 +6,10 @@ angular.module("pApp", [
 	"homeFactory",
 	"homesCtrl",
 	"scrollsCtrl",
+	"hungryBellysCtrl",
+	"memoryLanesCtrl",
+	"remindMesCtrl",
+	"warningSignsCtrl",
 	"ui.bootstrap",
 	"duScroll"
 ]);
