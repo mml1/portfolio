@@ -3,8 +3,17 @@
 		<a href="/" class="navbar-brand">Mari L.</a>
 	</div>
 </nav>
-<br><br><br>
+<br><br><br><br><br><br>
 <div class ="container" ng-controller ="RemindMesController">
+	<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+		<uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+			<img ng-src="{{slide.image}}">
+			<div class="carousel-caption">
+			<h5>Slide {{slide.id}}</h5>
+			<!-- <p>{{slide.text}}</p> -->
+		</div>
+		</uib-slide>
+	</uib-carousel>
 	<h1>Remind Me</h1>
 	<a class="fa fa-clone" aria-hidden="true" ></a>
 	<a class="fa fa-github" aria-hidden="true" href= "https://github.com/mml1/ror_remind_me" target= "_blank"></a>
@@ -23,6 +32,7 @@
 			<li>Andrew <a href ="" class="fa fa-linkedin" target="_blank"></a></i>
 			</li>
 		</ul>
+		<br><br><br>
 </div>
 <div class = "text-center footer" id="connect">
 	<br>

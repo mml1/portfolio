@@ -1,13 +1,14 @@
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="navbar-header page-scroll">
+		<br>
 		<a href="/" class="navbar-brand">Mari L.</a>
 	</div>
 </nav>
-<br><br><br>
+<br><br><br><br><br><br>
 <div class="container"ng-controller ="MemoryLanesController">
 	<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
 		<uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-			<img ng-src="{{slide.image}}" style="max-height:300px; margin:0 auto;">
+			<img ng-src="{{slide.image}}">
 			<div class="carousel-caption">
 			<h5>Slide {{slide.id}}</h5>
 			<!-- <p>{{slide.text}}</p> -->
@@ -32,6 +33,7 @@
 		<li>HTML</li>
 		<li>CSS</li>
 	</ul>
+	<br><br><br>
 </div>
 <div class = "text-center footer" id="connect">
 	<br>
