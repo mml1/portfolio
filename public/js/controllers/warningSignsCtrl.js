@@ -6,10 +6,9 @@ angular.module("warningSignsCtrl",[]).controller("WarningSignsController", funct
 
 	$scope.myInterval = 3000;
   	$scope.slides = [
-  		{id:0,image: "../../img/memoryLane/initial.png"},
-  		{id:1,image: "../../img/memoryLane/finished.png"},
-  		{id:2,image: "../../img/memoryLane/single.png"},
-  		{id:3,image: "../../img/memoryLane/topten.png"}
-
+  		{id:0,image: "../../img/warningSigns/first.png"},
+  		{id:1,image: "../../img/warningSigns/question.png"},
+  		{id:2,image: "../../img/warningSigns/results.png"},
+  		{id:3,image: "../../img/warningSigns/resources.png"}
   	];
 });
