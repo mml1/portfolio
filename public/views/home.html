@@ -1,5 +1,5 @@
 <div ng-controller="ScrollsController" id= "top">
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" id="homeBar">
 		<div class="navbar-header page-scroll">
 			<br>
 			<a class="navbar-brand" href="/">Mari L.</a>
@@ -7,13 +7,13 @@
 		<ul class="nav navbar-nav navbar-right">
 			<br>
 			<li class="page-scroll"><a href="#about"  du-smooth-scroll duration="700">About</a></li>
-			<li class="page-scroll"><a href="#projects" du-smooth-scroll duration="700">Projects</a></li>
 			<li class="page-scroll"><a href="#skills" du-smooth-scroll duration="700">Skills</a></li>
+			<li class="page-scroll"><a href="#projects" du-smooth-scroll duration="700">Projects</a></li>
 			<li class="page-scroll"><a href="#contact" du-smooth-scroll duration="700">Contact</a></li>
 		</ul>
 	</nav>
 
-	<div class="apple">
+	<div class="main">
 	 	<div class ="MLlogo">
  			<h1>Hello! I am Mari. </h1>
  			<p> I am an empathetic, bubbly, curious, full 	stack developer.</p>
@@ -26,14 +26,14 @@
 				<img src="../img/me.jpg" alt="Picture of me smiling">
 			</div>
 	 	</div>
-	 	<div class="text-justify col-sm-6">
+	 	<div class="text-justify col-sm-6" id="aboutText">
 			<h2>Hello! <br>
 				My name is Mari Lliguicota, but I go by Mary. I am an empathetic, bubbly, curious, full stack developer who enjoys creating and debugging code. My stacks of choice? MEAN and Ruby on Rails, sometimes even both at the same time. Besides web development, I love hearing about stem cells, developmental biology, 3D printing, virtual reality, IOT, psychology, mysteries, and body hacking. Want to connect? Contact me below. 
 			</h2>	 	
 		</div>
 	</div>
 	<div class="row" id="skills">
-		<h1 class="text-center">Skills</h1>
+		<h1>Skills</h1>
 
  		<div class="col-sm-6">
 
@@ -64,9 +64,9 @@
 
  			<h3>Methologies</h3>
  			<ul>
- 				<li>Agile: SCRUM</li>
- 				<li>MVC</li>
- 				<li>RESTful</li>
+ 				<li id="frontBul">Agile: SCRUM</li>
+ 				<li id="frontBul">MVC</li>
+ 				<li id="frontBul">RESTful</li>
  			</ul>
  			
  			<h3>Other</h3>
@@ -103,45 +103,15 @@
 			</div>
 		</div>
 	</div>
-	<div class = "text-center row" id="contact">
-		<h1>Contact</h1>
-		<form class="form-horizontal" role="form">
-		<div class="form-group">
-		<label class="control-label col-sm-4" for="email">Email:</label>
-		<div class="col-sm-4">
-		<input type="email" class="form-control" id="email" placeholder="Where should I reply to?" ng-model="mess.email">
-		</div>
-		</div>
-		<div class="form-group">
-		<label class="control-label col-sm-4" for="name">Name:</label>
-		<div class="col-sm-4">
-		<input type="text" class="form-control" id="text" placeholder="What is your name?" ng-model="mess.name">
-		</div>
 
-		</div>
-		<div class="form-group">
-		<label class="control-label col-sm-4" for="message">Message:</label>
-		<div class="col-sm-4">
-		<textarea class="form-control" id="text" placeholder="What is on your mind?" ng-model="mess.message"></textarea>
-		</div>
-		
-		</div>
-		<div class="form-group"> 
-		<div class="col-sm-6 col-sm-offset-4">
-		<button type="submit" class="btn btn-default" ng-click="message()">Submit</button>
-		</div>
-		</div>
-		</form>
-
-	</div>
-	<div class = "text-center footer" id="connect">
+	<div class = "text-center footer" id="contact">
 		<br>
 		<br>
 		<a class="glyphicon glyphicon-menu-up page-scroll cont" href="#top" du-smooth-scroll duration='700'></a>
 		<h1>Connect</h1>
 		<a href ="https://www.linkedin.com/in/marilliguicota" class="fa fa-linkedin cont" target="_blank"></a>
 		<a href ="https://github.com/mml1" class="fa fa-github cont" target="_blank"></a>
-		<a href ="" class="fa fa-twitter" target="_blank"></a>
+		<a href ="http://goo.gl/forms/SEKSXcCo3vxRn70k1" class="glyphicon glyphicon-envelope cont" target="_blank"></a>
 	</div>
 </div>
 

@@ -17,7 +17,7 @@ a:hover{
 	text-decoration: none;
 }
 a:visited{
-	color:#FFFFFF;
+	color:#C0C0C0;
 	text-decoration: none;
 }
 a:active{
@@ -33,6 +33,7 @@ h1{
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 900;
 }
+
 .container{
 	background: #FFFFFF;
 	min-height: 70%;
@@ -81,9 +82,10 @@ h1{
 .row{
 	background: #FFFFFF;
 	margin: 0px;
+	margin-bottom: 5%;
 }
 
-.apple{
+.main{
 	color: #FFFFFF;
 	background-image: url("../img/frontA.jpeg");  
 	background-repeat: no-repeat;
@@ -92,10 +94,12 @@ h1{
     padding-top: 300px;
 }
 .fa{
-	font-size: 30px;
+	font-size: 2em;
+	padding-left: 3px;
 }
 .glyphicon-envelope{
-	font-size: 30px;
+	font-size: 2em;
+	padding-left: 3px;
 }
 
 .footer{
@@ -123,6 +127,28 @@ h1{
 	border-radius: 4px;
 	box-shadow: 0 1px 2px rgba(0,0,0,.075);
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+#skills{
+	text-align: center;
+}
+#frontBul{
+	list-style-type: none;
+}
+@media (max-width: 800px) {
+	#homeBar {
+		/*display: inline-block;
+		position: absolute;*/
+		display: none;
+	}
+	.main{
+		display: none;
+	}
+	.MLlogo{
+		display: none;
+	}
+	#aboutText{
+		display: inline-block;
+	}
 }
 
 

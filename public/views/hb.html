@@ -6,16 +6,16 @@
 </nav>
 <br><br><br><br><br><br>
 <div class ="container" ng-controller ="HungryBellysController">
+	<h1>Hungry Belly</h1>
 	<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
 		<uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
 			<img ng-src="{{slide.image}}">
 			<div class="carousel-caption">
-			<h5>Slide {{slide.id}}</h5>
 			<!-- <p>{{slide.text}}</p> -->
 		</div>
 		</uib-slide>
 	</uib-carousel>
-	<h1>Hungry Belly</h1>
+	<br>
 	<a class="fa fa-clone" aria-hidden="true" href="http://54.186.90.201:81/" target="_blank"></a>
 	<a class="fa fa-github" aria-hidden="true" href="http://github.com/mml1/hungrybelly" target="_blank"></a>
 

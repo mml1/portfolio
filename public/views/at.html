@@ -6,16 +6,15 @@
 </nav>
 <br><br><br><br><br><br>
 <div class ="container" ng-controller ="WarningSignsController">
+	<h1>Warning Signs</h1>
 	<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
 		<uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
 			<img ng-src="{{slide.image}}">
 			<div class="carousel-caption">
-			<h5>Slide {{slide.id}}</h5>
-			<!-- <p>{{slide.text}}</p> -->
 		</div>
 		</uib-slide>
 	</uib-carousel>
-	<h1>Warning Signs</h1>
+	<br>
 	<i class="fa fa-clone" aria-hidden="true" ></i>
 	<a class="fa fa-github" aria-hidden="true" href= "https://github.com/mml1/athack" target= "_blank"></a>
 	<h3>Description</h3>
