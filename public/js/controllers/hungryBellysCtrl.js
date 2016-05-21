@@ -1,4 +1,5 @@
 angular.module("hungryBellysCtrl",[]).controller("HungryBellysController", function($scope, $routeParams, ProjectFactory){
+	
 	$scope.myInterval = 3000;
   	$scope.slides = [
   		{id:0,image: "../../img/hungryBelly/first.png"},

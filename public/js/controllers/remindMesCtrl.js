@@ -1,8 +1,4 @@
 angular.module("remindMesCtrl",[]).controller("RemindMesController", function($scope, $routeParams, ProjectFactory){
-	$scope.one = "";
-	$scope.project = {};
-	$scope.project.tech =[];
-
 
 	$scope.myInterval = 3000;
   	$scope.slides = [

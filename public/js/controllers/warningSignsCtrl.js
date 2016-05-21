@@ -1,8 +1,4 @@
 angular.module("warningSignsCtrl",[]).controller("WarningSignsController", function($scope, $routeParams, ProjectFactory){
-	$scope.one = "";
-	$scope.project = {};
-	$scope.project.tech =[];
-
 
 	$scope.myInterval = 3000;
   	$scope.slides = [

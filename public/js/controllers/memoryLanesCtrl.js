@@ -1,9 +1,5 @@
 angular.module("memoryLanesCtrl",[]).controller("MemoryLanesController", function($scope, $routeParams, ProjectFactory){
-	$scope.one = "";
-	$scope.project = {};
-	$scope.project.tech =[];
-
-
+  
 	$scope.myInterval = 3000;
   	$scope.slides = [
   		{id:0,image: "../../img/memoryLane/initial.png"},
