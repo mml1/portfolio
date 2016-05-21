@@ -1,5 +1,5 @@
 angular.module("projectFactory", []).factory("ProjectFactory", function($http){
-	// var factory = {};
+	var factory = {};
 	// var projects = [];
 
 	// //retrieve all project info
