@@ -12,12 +12,13 @@ a:link {
 	color:#A7F558;
 	text-decoration: none;
 }
-a:hover{	
-	color: #00ADA9;
-	text-decoration: none;
-}
+
 a:visited{
 	color:#FF655A;
+	text-decoration: none;
+}
+a:hover{	
+	color: #00ADA9;
 	text-decoration: none;
 }
 a:active{
@@ -98,7 +99,7 @@ h1{
 	padding-left: 3px;
 }
 .glyphicon-envelope{
-	font-size: 2em;
+	font-size: 1.6em;
 	padding-left: 3px;
 }
 
@@ -147,7 +148,9 @@ h1{
 		display: none;
 	}
 	#aboutText{
-		display: inline-block;
+		display: block;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
 
