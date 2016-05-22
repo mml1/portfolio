@@ -155,23 +155,5 @@ h3, h5{
 		padding-right: 5%;
 	}
 }
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
-	#homeBar {
-		/*display: inline-block;
-		position: absolute;*/
-		display: none;
-	}
-	.main{
-		display: none;
-	}
-	.MLlogo{
-		display: none;
-	}
-	#aboutText{
-		display: block;
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-}
 
 
