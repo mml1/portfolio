@@ -134,6 +134,9 @@ h3, h5{
 #frontBul{
 	list-style-type: none;
 }
+.container{
+	padding-top: 10%;
+}
 @media (max-width: 800px) {
 	#homeBar {
 		/*display: inline-block;
