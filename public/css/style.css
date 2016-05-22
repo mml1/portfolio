@@ -25,13 +25,13 @@ a:active{
 	color:#A7F558; 	
 	text-decoration: none;
 }
-h3, h5{
+h1{
 	color: #00ADA9;
 	font-weight: bold;
 }
-h1{
+h3, h5{
 	color: #00ADA9;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 .container{
