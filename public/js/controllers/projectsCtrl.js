@@ -1,5 +1,5 @@
 angular.module("projectsCtrl",[]).controller("ProjectsController", function($scope, $routeParams, ProjectFactory){
-
+//need to add huesofblue
 	// $scope.myInterval = 3000;
  //  	$scope.slides = [
  //  		{id:0,image: "../../img/memoryLane/initial.png"},
