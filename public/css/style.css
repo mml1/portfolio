@@ -1,5 +1,5 @@
 body{
-	background: #444444;
+	background: #000000;
 	color: #8A8E8F;
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 400;
@@ -86,12 +86,23 @@ h3, h5{
 }
 
 .main{
-	color: #FFFFFF;
-	background-image: url("../img/frontA.jpeg");  
+	background-color:#000;
+	background-image:url("../img/onlylogo.png");
 	background-repeat: no-repeat;
-    background-position:center; 
+    background-attachment: fixed;
+    background-position: center;
     min-height: 100%;
-    padding-top: 300px;
+}
+.frontSec{
+	min-height: 100%;
+	background-color: #444444;
+	float: right;
+}
+#logo{
+	top: 45%;
+	margin-left: 45%;
+	padding-left: 5px;
+	position: absolute;
 }
 .fa{
 	font-size: 2em;
@@ -104,7 +115,7 @@ h3, h5{
 
 .footer{
 	color:#C0C0C0;
-	background: #444444;
+	background: #000000;
 }
 .carousel-indicators li{
 	border: 1px solid #FFFFFF;
@@ -139,8 +150,6 @@ h3, h5{
 }
 @media (max-width: 800px) {
 	#homeBar {
-		/*display: inline-block;
-		position: absolute;*/
 		display: none;
 	}
 	.main{
