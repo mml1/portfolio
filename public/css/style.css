@@ -12,7 +12,6 @@ a:link {
 	color:#A7F558;
 	text-decoration: none;
 }
-
 a:visited{
 	color:#FF655A;
 	text-decoration: none;
@@ -25,16 +24,14 @@ a:active{
 	color:#A7F558; 	
 	text-decoration: none;
 }
-
 h1,h3, h5{
 	color: #056571;
 	font-weight: bold;
 }
-
 .container{
 	background: #FFFFFF;
 	min-height: 70%;
-
+	padding-top: 10%;
 }
 .navbar{
 	background: #444444;
@@ -82,10 +79,27 @@ h1,h3, h5{
 	margin-bottom: 5%;
 }
 
-.main{
-	background:#000 url("../img/logo.png") no-repeat fixed center;
-    min-height: 100%;
+.bgI{
+	background:#000 url("../img/logo.png") no-repeat center fixed;
+	min-height: 100%;
 }
+.bgII{
+	background:#000 url("../img/logo.png");
+	min-height: 25%;
+}
+.bgIII{
+	background:#000 url("../img/logo.png");
+	min-height: 25%;
+}
+/*Paralax effect*/
+.bgII, .bgIII {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .frontSec{
 	min-height: 100%;
 	background-color: #444444;
@@ -125,12 +139,7 @@ h1,h3, h5{
 	font-size: 3em;
 	color: #FFFFFF;
 }
-#me img{
-	border:1px solid #DDDDDD;
-	border-radius: 4px;
-	box-shadow: 0 1px 2px rgba(0,0,0,.075);
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
-}
+
 #skills h1{
 	text-align: center;
 }
@@ -151,12 +160,11 @@ h1,h3, h5{
 /*.icons:hover{
 	border-radius: 50%;
 }*/
-
+/*.thumbnail{
+	width: 33.3333%;
+}*/
 #frontBul{
 	list-style-type: none;
-}
-.container{
-	padding-top: 10%;
 }
 @media (max-width: 800px) {
 	#homeBar {
