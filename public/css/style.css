@@ -51,8 +51,8 @@ h1,h3, h5{
 	padding-right: 15px;
 }
 .navbar-brand{
-	font-size: 1.5em;
-	text-shadow: 0 0 0 rgba(255,255,255,.25)
+/*	font-size: 1.5em;
+*/	text-shadow: 0 0 0 rgba(255,255,255,.25)
 }
 .navbar-brand a:hover{
 	color:#FFFFFF;
@@ -89,19 +89,22 @@ h1,h3, h5{
 	margin-bottom: 5%;
 }
 .main{
-	min-height: 75%;
+	min-height: 55%;
 }
 .name{
-	font-size: 7em;
+	font-size: 5em;
 	color: #00ada8;
 }
 .jumbotronText{
-	min-height: 75%;
+	min-height: 55%;
 	padding-top: 10%;
 	background: #000000;
 }
+.mlogo{
+	max-height: 520%;
+}
 .bgI{
-	background:#000 url("../img/logo.png") no-repeat;
+	background:#000 url("../img/logo.png") no-repeat center;
 	min-height: 75%;
 }
 .bgII{
@@ -129,11 +132,8 @@ h1,h3, h5{
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
 
 }
-.frontSec{
-	min-height: 100%;
-	background-color: #444444;
-	float: right;
-}
+
+
 #logo{
 	top: 45%;
 	margin-left: 45%;
@@ -172,7 +172,14 @@ h1,h3, h5{
 #skills h1{
 	text-align: center;
 }
+/*#ml{
+	display: none;
+}
 
+#memoryLane:hover + #ml{
+	position: absolute;
+	display: inline;
+}*/
 .icons{
 	margin-left: 1%;
 	display: inline-block;

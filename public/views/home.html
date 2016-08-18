@@ -1,29 +1,29 @@
 <div ng-controller="ScrollsController" id= "top">
 	<nav class="navbar navbar-default navbar-fixed-top" id="homeBar">
 		<div class="navbar-header page-scroll">
-			<br>
-			<a class="navbar-brand" href="/">Mari L.</a>
+			<a class="navbar-brand" href="/">
+				<img src="../img/logo.png" class ="mlogo"alt="logo">
+			</a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
 			<br>
 			<li class="page-scroll"><a href="#about"  du-smooth-scroll duration="700">About</a></li>
+			<li class="page-scroll"><a href="#portfolio" du-smooth-scroll duration="700">Portfolio</a></li>
 			<li class="page-scroll"><a href="#skills" du-smooth-scroll duration="700">Skills</a></li>
-			<li class="page-scroll"><a href="#projects" du-smooth-scroll duration="700">Projects</a></li>
 			<li class="page-scroll"><a href="#contact" du-smooth-scroll duration="700">Connect</a></li>
 		</ul>
 	</nav>
 	<div class = "main">
-		<div class="bgI col-sm-6"></div>
-		<div class="jumbotronText col-sm-6">
+		<div class="jumbotronText">
 			<h1 class= "text-center name">Mari Lliguicota</h1>
-			<h2 class= "text-center">Front-end Developer/Web Developer/Researcher</h2>
+			<h2 class= "text-center">Front-end Developer/Researcher</h2>
 		</div>
 	</div>
 	<div class="row text-center" id="about">
 		<h1>I am a ...</h1>
 	 	<div class="col-sm-6" id="me">
 	 		<img src="../img/me.jpg" alt="picture of me">
-	 		<h2>Bubbly, curious, and empathetic developer</h2>
+	 		<h3>Bubbly, curious, and empathetic</h3>
 		</div>
 		<div class="col-sm-6 text-left">
 			<h3>Web Developer who:</h3>
@@ -32,13 +32,82 @@
 				<li>Held workshops on how to use WordPress <strong> (CMS)</strong></li>
 				<li>Spent a summer hiking a <strong> FOREST</strong> for research</li>
 				<li>Studied gene expression in leech <strong> STEM CELLS</strong></li>
-				<li>Feels great when <strong> HELPING</strong> and <strong> CREATING</strong></li>
-				<li>Will always <strong> LEARN</strong></li>
-				<li>You will catch<strong> SINGING</strong> XD</li>
-				
-
+				<li>Enjoyed months <strong> HELPING</strong> the Elderly</li>
+				<li>Loves <strong> LEARNING</strong></li>
 			</ul>
 	 	</div>
+	</div>
+	<div class="bgIII">
+	</div>
+	<div class="row" id="portfolio">
+	 	<h1 class="text-center">Portfolio</h1>	
+	 	<div class = "row">
+	 		<h2 class="text-center">Selected Projects</h2>
+	 		<div class = "row">	
+			<div class="col-sm-6">
+				<div class="thumbnail" id="memoryLane">
+					<a href="#/projects/memorylane"><img src="../img/memoryLane/initial.png" alt="Memory Lane logo" class="logo"></a>
+				</div>
+			</div>
+			<div id="ml" class="text-center col-sm-6">
+				<h3>Memory Lane</h3>
+				<a class="fa fa-external-link-square" aria-hidden="true" href="" target="_blank"></a>
+				<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/MEAN_match" target="_blank"></a>
+			</div>
+			</div><div class = "row">
+			<div class="col-sm-6">
+				<div class="thumbnail">
+					<a href="#/projects/remindme"><img src="../img/remindme/first.png" alt="Remind Me logo" class="logo"></a>
+				</div>
+			</div>
+			<div id ="rm" class="text-center col-sm-6">
+				<h3>Remind Me</h3>
+				<a class="fa fa-external-link-square" aria-hidden="true" href="http://54.183.134.63"></a>
+				<a class="fa fa-github" aria-hidden="true" href= "https://github.com/mml1/ror_remind_me" target= "_blank"></a>
+			</div>
+			</div><div class = "row">
+			<div class="col-sm-6">
+				<div class="thumbnail">
+					<a href="#/projects/hungrybelly"><img src="../img/hungryBelly/map.png" alt="Hungry Belly Logo" class="logo"></a>
+				</div>
+			</div>
+			<div id ="hb" class="text-center col-sm-6">
+				<h3>Hungry Belly</h3>
+				<a class="fa fa-external-link-square" aria-hidden="true" href="http://54.186.90.201:81/" target="_blank"></a>
+				<a class="fa fa-github" aria-hidden="true" href="http://github.com/mml1/hungrybelly" target="_blank"></a>
+
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="row">
+	 	<h2 class="text-center">Hackathon Projects</h2>	
+	 	<div class = "row">
+			<div class="col-sm-3">
+				<div class="thumbnail">
+					<img src="../img/nga.png" alt="NGA Expeditions project image" class="logo">
+				</div>
+				NGA Expeditions (Data Viz)
+			</div>
+			<div class="col-sm-3">
+				<div class="thumbnail">
+					<img src="../img/sensor.jpg" alt="Sensor created for IoT Hackathon" class="logo">
+				</div>
+				IoT for Cities (Hardware and Software)
+			</div>
+			<div class="col-sm-3">
+				<div class="thumbnail">
+					<a href="#/projects/warningstories"><img src="../img/warningSigns/first.png" alt="Warning Stories Logo" class="logo"></a>
+				</div>
+				ATHackathon: End Human Trafficking (Web App)
+			</div>
+			<div class="col-sm-3">
+				<h2>Upcoming:</h2>
+				<h3>TechCrunch Disrupt</h3>
+				<h3>Hack homelessness</h3>
+			
+			</div>
+		</div>
 	</div>
 	<div class="bgII">
 	</div>
@@ -133,58 +202,6 @@
 	 			<img src="../img/stackImages/github.png" alt="github image">
 			</div>
 
-		</div>
-	</div>
-	<div class="bgIII">
-	</div>
-	<div class="row" id="projects">
-	 	<h1 class="text-center">Selected Projects</h1>	
-	 	<div class = "row">
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/memorylane"><img src="../img/memoryLane/initial.png" alt="Memory Lane logo" class="logo"></a>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/remindme"><img src="../img/remindme/first.png" alt="Remind Me logo" class="logo"></a>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/hungrybelly"><img src="../img/hungryBelly/first.png" alt="Hungry Belly Logo" class="logo"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-	 	<h1 class="text-center">Hackathon Projects</h1>	
-	 	<div class = "row">
-			<div class="col-sm-3">
-				<div class="thumbnail">
-					<img src="../img/nga.png" alt="NGA Expeditions project image" class="logo">
-				</div>
-				NGA Expeditions (Data Viz)
-			</div>
-			<div class="col-sm-3">
-				<div class="thumbnail">
-					<img src="../img/sensor.jpg" alt="Sensor created for IoT Hackathon" class="logo">
-				</div>
-				IoT for Cities (Hardware and Software)
-			</div>
-			<div class="col-sm-3">
-				<div class="thumbnail">
-					<a href="#/projects/warningstories"><img src="../img/warningSigns/first.png" alt="Warning Stories Logo" class="logo"></a>
-				</div>
-				ATHackathon: End Human Trafficking (Web App)
-			</div>
-			<div class="col-sm-3">
-				<h2>Upcoming:</h2>
-				<h3>TechCrunch Disrupt</h3>
-				<h3>Hack homelessness</h3>
-			
-			</div>
 		</div>
 	</div>
 
