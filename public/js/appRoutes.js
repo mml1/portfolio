@@ -12,6 +12,12 @@ angular.module("appRoutes",[]).config(function($routeProvider){
 	.when("/projects/warningstories", {
 		templateUrl:"views/at.html"
 	})
+	.when("/projects/nga", {
+		templateUrl:"views/nga.html"
+	})
+	.when("/projects/iot", {
+		templateUrl:"views/iot.html"
+	})
 	.otherwise({
 		templateUrl: "views/home.html"
 	})	
