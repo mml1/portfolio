@@ -1,170 +1,199 @@
-<div ng-controller="ScrollsController" id= "top">
+<div ng-controller="ScrollsController" id="top">
 	<nav class="navbar navbar-default navbar-fixed-top" id="homeBar">
 		<div class="navbar-header page-scroll">
 			<a class="navbar-brand" href="/">
-				<img src="../img/logo.png" class ="mlogo"alt="logo">
+				<img src="../img/logo.png" class="mlogo" alt="logo">
 			</a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
 			<br>
-			<li class="page-scroll"><a href="#about"  du-smooth-scroll duration="700">About</a></li>
+			<li class="page-scroll"><a href="#about" du-smooth-scroll duration="700">About</a></li>
 			<li class="page-scroll"><a href="#portfolio" du-smooth-scroll duration="700">Portfolio</a></li>
 			<li class="page-scroll"><a href="#skills" du-smooth-scroll duration="700">Skills</a></li>
 			<li class="page-scroll"><a href="#contact" du-smooth-scroll duration="700">Connect</a></li>
 		</ul>
 	</nav>
-	<div class = "main">
+	<div class="main">
 		<div class="jumbotronText">
-			<h1 class= "text-center name">Mari Lliguicota</h1>
-			<h2 class= "text-center">Software Developer/Researcher</h2>
+			<h1 class="text-center name">Mari Lliguicota</h1>
+			<h2 class="text-center">Software Developer/Researcher</h2>
 		</div>
 	</div>
-	<div class="row text-center" id="about">
-		<h1>I am a ...</h1>
-	 	<div class="col-sm-6" id="me">
-	 		<img src="../img/me.jpg" alt="picture of me">
-	 		<h3>Bubbly, curious, and empathetic</h3>
+	<div class="container">
+
+		<div class="row text-center" id="about">
+			<h1>I am a ...</h1>
+			<div class="col-sm-6" id="me">
+				<img src="../img/me.jpg" alt="picture of me">
+				<h3>Bubbly, curious, and empathetic</h3>
+			</div>
+			<div class="col-sm-6 text-left">
+				<h3>Developer who:</h3>
+				<ul>
+					<li>Cut into a <strong> HUMAN</strong> brain</li>
+					<li>Held workshops on how to use WordPress <strong> (CMS)</strong></li>
+					<li>Spent a summer hiking a <strong> FOREST</strong> for research</li>
+					<li>Studied gene expression in leech <strong> STEM CELLS</strong></li>
+					<li>Enjoyed months <strong> HELPING</strong> the Elderly</li>
+					<li>Loves <strong> LEARNING</strong></li>
+				</ul>
+			</div>
 		</div>
-		<div class="col-sm-6 text-left">
-			<h3>Developer who:</h3>
-			<ul>
-				<li>Cut into a <strong> HUMAN</strong> brain</li>
-				<li>Held workshops on how to use WordPress <strong> (CMS)</strong></li>
-				<li>Spent a summer hiking a <strong> FOREST</strong> for research</li>
-				<li>Studied gene expression in leech <strong> STEM CELLS</strong></li>
-				<li>Enjoyed months <strong> HELPING</strong> the Elderly</li>
-				<li>Loves <strong> LEARNING</strong></li>
-			</ul>
-	 	</div>
 	</div>
 	<div class="bgIII">
 	</div>
-	<div class="row" id="portfolio">
-	 	<h1 class="text-center">Portfolio</h1>
-	 	<div class = "row">
-	 		<h2 class="text-center">Selected Projects</h2>
-	 		<div class = "row">
-				<div class="col-sm-6">
-					<div class="thumbnail" id="memoryLane">
-						<a href="#/projects/memorylane"><img src="../img/memoryLane/initial.png" alt="Memory Lane logo" class="logo"></a>
+	<div class="container">
+		<div class="row" id="portfolio">
+			<h1 class="text-center">Portfolio</h1>
+			<div class="row">
+				<h2 class="text-center">Selected Projects</h2>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="thumbnail" id="memoryLane">
+							<a href="#/projects/memorylane"><img src="../img/memoryLane/initial.png" alt="Memory Lane logo" class="logo"></a>
+						</div>
+					</div>
+					<div id="ml" class="text-center col-sm-6">
+						<h3>Memory Lane</h3>
+						<a class="fa fa-external-link-square" aria-hidden="true" href="https://memory-lane-game.herokuapp.com/" target="_blank"></a>
+						<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/MEAN_match" target="_blank"></a>
 					</div>
 				</div>
-				<div id="ml" class="text-center col-sm-6">
-					<h3>Memory Lane</h3>
-					<a class="fa fa-external-link-square" aria-hidden="true" href="https://memory-lane-game.herokuapp.com/" target="_blank"></a>
-					<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/MEAN_match" target="_blank"></a>
-				</div>
-			</div>
-			<div class = "row">
-				<div class="col-sm-6">
-					<div class="thumbnail">
-						<a href="#/projects/remindme"><img src="../img/remindme/first.png" alt="Remind Me logo" class="logo"></a>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<a href="#/projects/remindme"><img src="../img/remindme/first.png" alt="Remind Me logo" class="logo"></a>
+						</div>
+					</div>
+					<div id="rm" class="text-center col-sm-6">
+						<h3>Remind Me</h3>
+						<!-- <a class="fa fa-external-link-square" aria-hidden="true" href="http://54.183.134.63"></a> -->
+						<a class="fa fa-github" aria-hidden="true" href="https://github.com/mml1/ror_remind_me" target="_blank"></a>
 					</div>
 				</div>
-				<div id ="rm" class="text-center col-sm-6">
-					<h3>Remind Me</h3>
-					<a class="fa fa-external-link-square" aria-hidden="true" href="http://54.183.134.63"></a>
-					<a class="fa fa-github" aria-hidden="true" href= "https://github.com/mml1/ror_remind_me" target= "_blank"></a>
-				</div>
-			</div>
-			<div class = "row">
-				<div class="col-sm-6">
-					<div class="thumbnail">
-						<a href="#/projects/hungrybelly"><img src="../img/hungryBelly/map.png" alt="Hungry Belly Logo" class="logo"></a>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="thumbnail">
+							<a href="#/projects/hungrybelly"><img src="../img/hungryBelly/map.png" alt="Hungry Belly Logo" class="logo"></a>
+						</div>
 					</div>
-				</div>
-				<div id ="hb" class="text-center col-sm-6">
-					<h3>Hungry Belly</h3>
-					<a class="fa fa-external-link-square" aria-hidden="true" href="http://54.186.90.201:81/" target="_blank"></a>
-					<a class="fa fa-github" aria-hidden="true" href="http://github.com/mml1/hungrybelly" target="_blank"></a>
+					<div id="hb" class="text-center col-sm-6">
+						<h3>Hungry Belly</h3>
+						<a class="fa fa-external-link-square" aria-hidden="true" href="http://54.186.90.201:81/" target="_blank"></a>
+						<a class="fa fa-github" aria-hidden="true" href="http://github.com/mml1/hungrybelly" target="_blank"></a>
 
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-	 	<h2 class="text-center">Hackathon Projects</h2>
-	 	<div class = "row">
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/nga"><img src="../img/nga.png" alt="NGA Expeditions project image" class="logo"></a>
+
+		<div class="row">
+			<h2 class="text-center">Hackathon Projects</h2>
+			<div class="row">
+				<div class="col-sm-3">
+					<h4 class="text-center">TheHighFlyers.club</h4>
+
+					<div class="thumbnail">
+						<a href="https://techcrunch.com/2016/09/11/thehighflyers-helps-you-join-the-mile-high-chat-club" target="_blank"><img src="../img/theHighFlyers.png" alt="TheHighFlyers image holder" class="logo"></a>
+					</div>
+					<h5 class="text-uppercase text-center" style="color:red">Winner</h5>
+					<h5 class="text-center">Disrupt SF Hackathon 2016 TechCrunch (Web App)</h5>
 				</div>
-				NGA Expeditions (Data Viz)
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/iot"><img src="../img/sensor.jpg" alt="Sensor created for IoT Hackathon" class="logo">
-					</a>
+				<div class="col-sm-3">
+					<h4 class="text-center">ShakeQuake</h4>
+
+					<div class="thumbnail">
+						<a href="#/projects/nga"><img src="../img/nga.png" alt="NGA Expeditions project image" class="logo"></a>
+					</div>
+					<h5 class="text-center">NGA Expeditions (Data Viz)</h5>
 				</div>
-				IoT for Cities (Hardware and Software)
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="#/projects/warningstories"><img src="../img/warningSigns/first.png" alt="Warning Stories Logo" class="logo"></a>
+				<div class="col-sm-3">
+					<h4 class="text-center">Recycle Me</h4>
+
+					<div class="thumbnail">
+						<a href="#/projects/iot"><img src="../img/sensor.jpg" alt="Sensor created for IoT Hackathon" class="logo">
+						</a>
+					</div>
+					<h5 class="text-center">IoT for Cities (Hardware and Software)</h5>
 				</div>
-				ATHackathon: End Human Trafficking (Web App)
+				<div class="col-sm-3">
+					<h4 class="text-center">Warning Signs</h4>
+
+					<div class="thumbnail">
+						<a href="#/projects/warningstories"><img src="../img/warningSigns/first.png" alt="Warning Stories Logo" class="logo"></a>
+					</div>
+					<h5 class="text-center">ATHackathon: End Human Trafficking (Web App)</h5>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="bgII">
 	</div>
-	<div class="row" id="skills">
-		<h1>Tech Skills</h1>
-		<div class = "col-sm-12">
-			<div class = "col-sm-3">
-				<h3>Languages</h3>
-				<ul>
-					<li>JavaScript</li>
-					<li>Ruby</li>
-					<li>Python</li>
-					<li>CSS3</li>
-					<li>HTML5</li>
+	<div class="container">
+		<div class="row" id="skills">
+			<h1>Tech Skills</h1>
+			<div class="col-sm-12">
+				<div class="col-sm-3">
+					<h3>Languages</h3>
+					<ul>
+						<li>JavaScript</li>
+						<li>Ruby</li>
+						<li>Python</li>
+						<li>CSS3</li>
+						<li>HTML5</li>
 
-				</ul>
-			</div>
-			<div class = "col-sm-3">
-				<h3>Frontend</h3>
-				<ul>
-					<li>AngularJS</li>
-					<li>BootStrap</li>
-					<li>jQuery</li>
-					<li>AJAX</li>
-				</ul>
-			</div>
-			<div class = "col-sm-3">
-				<h3>Backend</h3>
-				<ul>
-					<li>NodeJS</li>
-					<li>ExpressJS</li>
-					<li>MongoDB</li>
-					<li>PostgreSQL</li>
-					<li>MySQL</li>
-					<li>SQLite</li>
-					<li>socket.io</li>
-				</ul>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h3>Frontend</h3>
+					<ul>
+						<li>Angular.js</li>
+						<li>Twitter Bootstrap</li>
+						<li>jQuery</li>
+						<li>AJAX</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Express.js</li>
+						<li>MongoDB</li>
+						<li>PostgreSQL</li>
+						<li>MySQL</li>
+						<li>SQLite</li>
+						<li>Socket.io</li>
+						<li>Rails</li>
+						<li>Flask</li>
+					</ul>
 
-			</div>
-			<div class = "col-sm-3">
-				<h3>Miscellaneous</h3>
-				<ul>
-					<li>AWS EC2</li>
-					<li>Git</li>
-					<li>GitHub</li>
-					<li>Unix commands</li>
-				</ul>
+				</div>
+				<div class="col-sm-3">
+					<h3>Miscellaneous</h3>
+					<ul>
+						<li>AWS EC2</li>
+						<li>AWS S3 Bucket</li>
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>Heroku</li>
+						<li>Sketch</li>
+						<li>Asana</li>
+						<li>Trello</li>
+						<li>Slack</li>
+					</ul>
 
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class = "text-center footer" id="contact">
+	<div class="text-center footer" id="contact">
 		<br>
 		<br>
 		<a class="glyphicon glyphicon-menu-up page-scroll cont" href="#top" du-smooth-scroll duration='700'></a>
 		<h1>Connect</h1>
-		<a href ="https://www.linkedin.com/in/marilliguicota" class="fa fa-linkedin cont" target="_blank"></a>
-		<a href ="https://github.com/mml1" class="fa fa-github cont" target="_blank"></a>
-		<a href ="mailto:marilliguicota@gmail.com?Subject=Connecting from your Website" target="_top" class="glyphicon glyphicon-envelope cont" target="_blank"></a><br>
-		&copy; Mari Lliguicota 2016
+		<a href="https://www.linkedin.com/in/marilliguicota" class="fa fa-linkedin cont" target="_blank"></a>
+		<a href="https://github.com/mml1" class="fa fa-github cont" target="_blank"></a>
+		<a href="mailto:marilliguicota@gmail.com?Subject=Connecting from your Website" target="_top" class="glyphicon glyphicon-envelope cont" target="_blank"></a><br> &copy; Mari Lliguicota 2017
 	</div>
 </div>
