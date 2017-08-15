@@ -9,4 +9,4 @@ AngularJS
 Node.js
 Express.js
 
-A work in progress ... 
+New modifications are coming soon. 
